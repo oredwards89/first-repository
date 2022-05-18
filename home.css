@@ -48,12 +48,16 @@ body {
         width: 95% !important;
     }
 
+    #master-container #main-content #cohort-annoucement {
+        height: 10vh !important;
+    }
+
     #master-container #main-content #customer-reviews {
         flex-direction: column;
     }
     
     #master-container #main-content #customer-reviews .review-container {
-        width: 90% !important;
+        width: 102% !important;
         height: 22vh !important;
     }
 
