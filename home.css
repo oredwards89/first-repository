@@ -19,6 +19,7 @@ body {
     body {
         margin: 8px;
         font-size: small;
+        overflow-x: hidden;
     }
 
     h1 {
@@ -37,6 +38,10 @@ body {
     #master-container #main-content #banner-top img {
         width: 100%;
         height: auto;
+    }
+
+    #image-section {
+        place-self: center;
     }
 
     #master-container #main-content #company-values {
@@ -62,8 +67,16 @@ body {
     }
 
     #master-container #main-content #customer-reviews .review-container .user-image-portion .img-container img {
-        width: 18vw !important;
+        width: 21vw !important;
         height: auto !important;
+    }
+
+    #master-container #main-content #register-today {
+        height: 7vh !important;
+    }
+
+    #master-container #footer #nav-logo {
+        padding-bottom: 0px !important;
     }
 }
 
