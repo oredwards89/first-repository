@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    --primary-color: #1ef236;
+    --secondary-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    resize: none;
+}
+
+body {
+    background-color: #1c1b1b;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    max-width: 100vw;
+    resize: none;
+}
+
+.title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#master-container {
+    display: grid;
+}
+
+
+#master-container #top-nav #top-nav-container {
+    height: 10vh;
+    display: flex;
+    color: var(--primary-color);
+    box-sizing: border-box;
+    padding-left: 6vw;
+    align-items: center;
+    padding-right: 3vw;
+}
+
+#master-container #top-nav #top-nav-container .logo-img {
+    display: flex;
+    place-content: center;
+    width: 91%;
+    position: absolute;
+}
+
+#master-container #top-nav #top-nav-container .logo-img img {
+    width: 4vw;
+}
+
+#master-container #top-nav #top-nav-container #nav-links {
+    display: flex;
+    position: absolute;
+    right: 8vw;
+    gap: 3vw;
+}
+
+#master-container #main-content {
+    height: max-content;
+    display: grid;
+}
+
+#master-container #main-content img {
+    display: grid;
+    place-content: center;
+    height: min-content;
+    font-size: 7vh;
+    color: var(--primary-color);
+    max-width: 100vw;
+}
+
+#master-container #main-content .mid-large-text {
+    display: grid;
+    place-content: center;
+    height: min-content;
+    font-size: 7vh;
+    color: var(--primary-color);
+    text-shadow: 3px 15px 12vh #1ef23696;
+    padding-top: 3vh;
+}
+
+#master-container #main-content #cohort-annoucement {
+    height: 26vh;
+    font-size: 5vh;
+    text-shadow: 3px -4px 12vh #1ef23696;
+    padding: 0px;
+}
+
+#master-container #main-content #cohort-annoucement #text-emphasis {
+    color: white;
+}
+
+#master-container #main-content #company-values {
+    display: grid;
+    background-color: #3f8c52;
+    height: 58vh;
+}
+
+#master-container #main-content #company-values .company-values {
+    width: 75%;
+    color: white;
+    display: grid;
+    place-self: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+#master-container #main-content #languages-container {
+    display: flex;
+    color: whitesmoke;
+    place-content: center;
+    gap: 4vw;
+    width: 80vw;
+    place-self: center;
+    padding-top: 8vh;
+    padding-bottom: 7vh;
+}
+
+#master-container #main-content #languages-container #details {
+    width: 40vw;
+    font-size: 3vh;
+}
+
+#master-container #main-content #customer-reviews {
+    height: max-content;
+    width: 85%;
+    display: flex;
+    place-self: center;
+    border: 1px solid #48474780;
+    border-radius: 1vw;
+    background-color: #1a1a1a;
+    gap: 3vw;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 2vw;
+    place-content: center;
+}
+
+#master-container #main-content #customer-reviews .review-container {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    width: 47%;
+    height: 34vh;
+    border: 1px solid #484747;
+    border-radius: 1vw;
+    place-content: center;
+    gap: 1vw;
+}
+
+#master-container #main-content #customer-reviews .review-container .user-image-portion {
+    display: grid;
+}
+
+#master-container #main-content #customer-reviews .review-container .user-image-portion .img-container {
+    display: flex;
+    width: 10vw;
+    /*! box-shadow: 5px solid var(--primary-color); */
+    border-radius: 5vw;
+    height: 17vh;
+    margin-left: 1.0vw;
+    margin-top: 1vw;
+}
+
+#master-container #main-content #customer-reviews .review-container .user-image-portion .img-container img {
+    display: flex;
+    width: 10vw;
+    border-radius: 5vw;
+    height: 17vh;
+}
+
+#master-container #main-content #customer-reviews .review-container .user-review {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    height: max-content;
+    display: grid;
+    place-content: center;
+    width: 98%;
+}
+
+#master-container #main-content #customer-reviews .review-container .user-review .user-content {
+    font-family: 'Poppins', sans-serif;
+}
+
+#master-container #main-content #register-today {
+    height: 22vh;
+    padding-top: 0;
+}
+
+#master-container #footer {
+    height: max-content;
+    place-content: center;
+    display: grid;
+    gap: 1.5vh;
+    text-align: center;
+}
+
+#master-container #footer #nav-logo {
+    display: flex;
+    place-content: center;
+    padding-bottom: 5vh;
+}
+
+#master-container #footer #links {
+    display: flex;
+    place-content: center;
+    gap: 3vw;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--primary-color)
+}
+
+#footer a {
+    color: #06bb009e;
+}
