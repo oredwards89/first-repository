@@ -40,20 +40,19 @@ body {
 
     #main-container #right-form-section {
         width: 90vw !important;
-        background-color: none !important;
-        height: 78vh !important;
+        height: 75vh !important;
         display: grid !important;
         place-self: center;
-        overflow-y: hidden;
     }
 
     #main-container #right-form-section #title-annoucement {
         visibility: hidden;
         height: 0px !important;
+        overflow-x: hidden;
     }
 
     #main-container #right-form-section #form-container {
-        /*! height: 0 !important; */
+        height: 80vh !important;
         width: 90vw !important;
     }
 
