@@ -34,7 +34,7 @@ body {
         font-size: 3vw !important;
     }
 
-    #master-container #main-content img {
+    #master-container #main-content #banner-top img {
         width: 100%;
         height: auto;
     }
@@ -48,7 +48,19 @@ body {
         width: 95% !important;
     }
 
+    #master-container #main-content #customer-reviews {
+        flex-direction: column;
+    }
     
+    #master-container #main-content #customer-reviews .review-container {
+        width: 90% !important;
+        height: 22vh !important;
+    }
+
+    #master-container #main-content #customer-reviews .review-container .user-image-portion .img-container img {
+        width: 18vw !important;
+        height: auto !important;
+    }
 }
 
 .title {
