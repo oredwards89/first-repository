@@ -35,11 +35,8 @@ body {
     }
 
     #master-container #main-content img {
-        width: 50vw;
-    }
-
-    #master-container #main-content img {
         width: 100%;
+        height: auto;
     }
 
     #master-container #main-content #company-values {
