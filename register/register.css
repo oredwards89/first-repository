@@ -15,6 +15,55 @@ body {
     resize: none;
 }
 
+@media (max-width: 600px) {
+    #main-container {
+        display: flex !important;
+        width: 100vw !important;
+        flex-direction: column !important;
+        gap: 6vh;
+        padding-top: 3vh;
+        overflow-x: hidden;
+    }
+
+    #main-container #left-logo-section {
+        display: grid !important;
+        place-content: center !important;
+        background-color: transparent !important;
+        height: min-content !important;
+        width: 100vw !important;
+    }
+
+    #main-container #left-logo-section img {
+        height: 12vh !important;
+        width: auto !important;
+    }
+
+    #main-container #right-form-section {
+        width: 90vw !important;
+        background-color: none !important;
+        height: 78vh !important;
+        display: grid !important;
+        place-self: center;
+        overflow-y: hidden;
+    }
+
+    #main-container #right-form-section #title-annoucement {
+        visibility: hidden;
+        height: 0px !important;
+    }
+
+    #main-container #right-form-section #form-container {
+        /*! height: 0 !important; */
+        width: 90vw !important;
+    }
+
+    #main-container #right-form-section h1 {
+        visibility: hidden;
+        height: 0 !important;
+        width: 0 !important;
+    }
+}
+
 #main-container {
     display: flex;
     width: 100vw;
@@ -57,7 +106,7 @@ body {
 }
 
 #main-container #right-form-section #form-container {
-    
+
     height: max-content;
     width: 45vw;
     justify-self: center;
