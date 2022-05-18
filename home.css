@@ -275,6 +275,6 @@ a {
     color: #06bb009e;
 }
 
-#footer #links, a {
+#footer #links{
     visibility: hidden;
 }

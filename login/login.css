@@ -19,7 +19,7 @@ body {
     }
 
     img {
-        width: 20vw;
+        width: 20vw !important;
         padding-top: 2vh;
     }
 }
@@ -129,5 +129,5 @@ input {
 }
 
 img {
-    width: 20vw;
+    width: 6vw;
 }
