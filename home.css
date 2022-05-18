@@ -43,7 +43,7 @@ body {
     }
 
     #master-container #main-content #company-values {
-        height: 45vh !important;
+        height: 40vh !important;
     }
 
     #master-container #main-content #company-values .company-values {
@@ -99,10 +99,8 @@ body {
 #master-container #main-content img {
     display: grid;
     place-content: center;
-    height: min-content;
-    font-size: 7vh;
-    color: var(--primary-color);
     max-width: 100vw;
+    height: auto;
 }
 
 #master-container #main-content .mid-large-text {
